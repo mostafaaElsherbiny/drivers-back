@@ -80,9 +80,9 @@ public class DriverControllerTest
 
         var okResult = Assert.IsType<OkObjectResult>(result);
 
-        var actualTodo = Assert.IsType<Driver>(okResult.Value);
+        var actualDriver = Assert.IsType<Driver>(okResult.Value);
 
-        Assert.Equal(validDriver, actualTodo);
+        Assert.Equal(validDriver, actualDriver);
     }
 
 
