@@ -840,3 +840,901 @@ Driver.Controllers.DriverController.Create (Driver)
 2023-10-28 21:28:37.951 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 3.8623ms
 2023-10-28 21:28:38.009 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.1144ms
 2023-10-28 21:28:53.563 +02:00  INF  Application is shutting down...
+2023-10-28 21:46:49.105 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-28 21:46:49.212 +02:00  INF  Now listening on: https://localhost:7204
+2023-10-28 21:46:49.213 +02:00  INF  Now listening on: http://localhost:5055
+2023-10-28 21:46:49.214 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-10-28 21:46:49.215 +02:00  INF  Hosting environment: Development
+2023-10-28 21:46:49.215 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-10-28 21:46:58.784 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-28 21:46:58.901 +02:00  INF  Now listening on: https://localhost:7204
+2023-10-28 21:46:58.902 +02:00  INF  Now listening on: http://localhost:5055
+2023-10-28 21:46:58.904 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-10-28 21:46:58.904 +02:00  INF  Hosting environment: Development
+2023-10-28 21:46:58.904 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-10-28 21:47:23.851 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:23.943 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 92.7959ms
+2023-10-28 21:47:23.955 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - -
+2023-10-28 21:47:23.955 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - -
+2023-10-28 21:47:23.955 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:23.955 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - -
+2023-10-28 21:47:23.959 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 3.7886ms
+2023-10-28 21:47:23.966 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-28 21:47:23.966 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-28 21:47:23.966 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-28 21:47:23.968 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 12.7110ms
+2023-10-28 21:47:23.968 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - - - 200 144929 text/css 12.7109ms
+2023-10-28 21:47:23.968 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 12.7110ms
+2023-10-28 21:47:24.112 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:24.129 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:24.130 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:24.130 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 1.0149ms
+2023-10-28 21:47:24.186 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.5697ms
+2023-10-28 21:47:42.441 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:42.447 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.6217ms
+2023-10-28 21:47:42.468 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - -
+2023-10-28 21:47:42.468 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:42.470 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 1.1550ms
+2023-10-28 21:47:42.478 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-28 21:47:42.479 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - - - 200 144929 text/css 10.2257ms
+2023-10-28 21:47:42.556 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:42.562 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.0393ms
+2023-10-28 21:47:42.577 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:42.578 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:42.578 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.5642ms
+2023-10-28 21:47:48.048 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:48.053 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.8979ms
+2023-10-28 21:47:48.064 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:48.065 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.4227ms
+2023-10-28 21:47:48.125 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:48.130 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.1082ms
+2023-10-28 21:47:48.130 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:48.130 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:48.130 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3576ms
+2023-10-28 21:47:49.450 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:49.458 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 8.3000ms
+2023-10-28 21:47:49.468 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:49.468 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2830ms
+2023-10-28 21:47:49.522 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:49.528 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.3312ms
+2023-10-28 21:47:49.542 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:49.542 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:49.542 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4564ms
+2023-10-28 21:47:50.922 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:50.926 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.2313ms
+2023-10-28 21:47:50.936 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:50.937 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3029ms
+2023-10-28 21:47:50.980 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:50.984 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.6719ms
+2023-10-28 21:47:50.997 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:50.997 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:50.997 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3530ms
+2023-10-28 21:47:52.392 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:52.397 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.0055ms
+2023-10-28 21:47:52.409 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:52.409 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2570ms
+2023-10-28 21:47:52.462 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:52.466 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.7658ms
+2023-10-28 21:47:52.485 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:52.485 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:52.485 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3735ms
+2023-10-28 21:47:54.396 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:54.400 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.7053ms
+2023-10-28 21:47:54.414 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:54.415 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3864ms
+2023-10-28 21:47:54.464 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:54.466 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.7865ms
+2023-10-28 21:47:54.479 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:54.479 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:54.479 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4039ms
+2023-10-28 21:47:55.860 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:47:55.864 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.7863ms
+2023-10-28 21:47:55.875 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:47:55.876 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2494ms
+2023-10-28 21:47:55.923 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:47:55.928 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.4622ms
+2023-10-28 21:47:55.929 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:47:55.929 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:47:55.929 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3232ms
+2023-10-28 21:48:06.166 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:06.171 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.9572ms
+2023-10-28 21:48:06.185 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:06.185 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3106ms
+2023-10-28 21:48:06.258 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:06.263 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.2055ms
+2023-10-28 21:48:06.285 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:06.285 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:06.285 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4866ms
+2023-10-28 21:48:08.141 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:08.146 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.5138ms
+2023-10-28 21:48:08.157 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:08.157 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2454ms
+2023-10-28 21:48:08.206 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:08.209 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:08.210 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:08.210 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4402ms
+2023-10-28 21:48:08.210 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.4952ms
+2023-10-28 21:48:09.546 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:09.551 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.8999ms
+2023-10-28 21:48:09.564 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:09.564 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3452ms
+2023-10-28 21:48:09.615 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:09.619 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.6969ms
+2023-10-28 21:48:09.641 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:09.641 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:09.642 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3811ms
+2023-10-28 21:48:11.058 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:11.062 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.4700ms
+2023-10-28 21:48:11.074 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:11.074 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2857ms
+2023-10-28 21:48:11.123 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:11.127 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3717ms
+2023-10-28 21:48:11.130 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:11.131 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:11.131 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3482ms
+2023-10-28 21:48:14.230 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:14.235 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.2259ms
+2023-10-28 21:48:14.249 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:14.249 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2493ms
+2023-10-28 21:48:14.313 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:14.315 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.5574ms
+2023-10-28 21:48:14.319 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:14.319 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:14.319 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2593ms
+2023-10-28 21:48:36.710 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:36.715 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.4240ms
+2023-10-28 21:48:36.732 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:36.732 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3105ms
+2023-10-28 21:48:36.793 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:36.798 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.6043ms
+2023-10-28 21:48:36.832 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:36.833 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:36.833 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.5984ms
+2023-10-28 21:48:41.176 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:41.182 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.9547ms
+2023-10-28 21:48:41.194 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:41.194 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2534ms
+2023-10-28 21:48:41.243 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:41.247 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2387ms
+2023-10-28 21:48:41.266 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:41.266 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:41.266 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3234ms
+2023-10-28 21:48:45.021 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 21:48:45.026 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.8418ms
+2023-10-28 21:48:45.038 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 21:48:45.038 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2691ms
+2023-10-28 21:48:45.090 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 21:48:45.094 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.5154ms
+2023-10-28 21:48:45.096 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 21:48:45.096 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 21:48:45.096 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3028ms
+2023-10-28 22:05:07.665 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:05:07.670 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.2123ms
+2023-10-28 22:05:07.682 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:05:07.682 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3104ms
+2023-10-28 22:05:07.756 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:05:07.760 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.4866ms
+2023-10-28 22:05:07.800 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:05:07.801 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:05:07.801 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2866ms
+2023-10-28 22:05:36.763 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:05:36.766 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:05:36.774 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Entities.DriverEntity] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:05:36.785 +02:00  INF  Executing ObjectResult, writing value of type 'System.String'.
+2023-10-28 22:05:36.789 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 11.6491ms
+2023-10-28 22:05:36.789 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:05:36.789 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 26.5806ms
+2023-10-28 22:05:38.749 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:05:38.750 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:05:38.750 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Entities.DriverEntity] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:05:38.752 +02:00  INF  Executing ObjectResult, writing value of type 'System.String'.
+2023-10-28 22:05:38.752 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.296ms
+2023-10-28 22:05:38.752 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:05:38.752 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 3.1916ms
+2023-10-28 22:05:56.576 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:05:56.581 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.4112ms
+2023-10-28 22:05:56.590 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:05:56.590 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2926ms
+2023-10-28 22:05:56.649 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:05:56.653 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.5179ms
+2023-10-28 22:05:56.672 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:05:56.672 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:05:56.672 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4058ms
+2023-10-28 22:05:58.094 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:05:58.099 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.0887ms
+2023-10-28 22:05:58.113 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:05:58.113 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2076ms
+2023-10-28 22:05:58.165 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:05:58.168 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.1727ms
+2023-10-28 22:05:58.173 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:05:58.173 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:05:58.174 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3786ms
+2023-10-28 22:06:04.035 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:06:04.035 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:06:04.036 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Entities.DriverEntity] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:06:04.041 +02:00  INF  Executing OkObjectResult, writing value of type 'Driver.Entities.DriverEntity'.
+2023-10-28 22:06:04.044 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 7.2769ms
+2023-10-28 22:06:04.044 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:06:04.044 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 9.0802ms
+2023-10-28 22:06:26.084 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:06:26.089 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.3812ms
+2023-10-28 22:06:26.098 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:06:26.099 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2445ms
+2023-10-28 22:06:26.147 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:06:26.150 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.7858ms
+2023-10-28 22:06:26.153 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:06:26.154 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:06:26.154 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3950ms
+2023-10-28 22:06:27.428 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:06:27.433 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.6510ms
+2023-10-28 22:06:27.442 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:06:27.442 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2402ms
+2023-10-28 22:06:27.494 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:06:27.498 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.2897ms
+2023-10-28 22:06:27.506 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:06:27.506 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:06:27.506 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2950ms
+2023-10-28 22:06:30.637 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:06:30.643 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.7537ms
+2023-10-28 22:06:30.653 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:06:30.653 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2315ms
+2023-10-28 22:06:30.723 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:06:30.726 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3053ms
+2023-10-28 22:06:30.732 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:06:30.733 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:06:30.733 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.8715ms
+2023-10-28 22:06:34.126 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:06:34.131 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.8272ms
+2023-10-28 22:06:34.141 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:06:34.141 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2633ms
+2023-10-28 22:06:34.190 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:06:34.195 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.6547ms
+2023-10-28 22:06:34.207 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:06:34.207 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:06:34.207 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3493ms
+2023-10-28 22:06:36.197 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:06:36.201 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 3.9638ms
+2023-10-28 22:06:36.210 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:06:36.210 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.1668ms
+2023-10-28 22:06:36.254 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:06:36.257 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.6456ms
+2023-10-28 22:06:36.264 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:06:36.265 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:06:36.265 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2851ms
+2023-10-28 22:06:43.078 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:06:43.083 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.6322ms
+2023-10-28 22:06:43.091 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:06:43.091 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.1738ms
+2023-10-28 22:06:43.139 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:06:43.144 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:06:43.148 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 8.6243ms
+2023-10-28 22:06:43.154 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:06:43.154 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:06:43.154 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3459ms
+2023-10-28 22:06:45.677 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:06:45.677 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:06:45.678 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 1.0676ms
+2023-10-28 22:06:46.993 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:06:46.993 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:06:46.993 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.5660ms
+2023-10-28 22:07:07.288 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:07:07.292 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.3840ms
+2023-10-28 22:07:07.303 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:07:07.303 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2049ms
+2023-10-28 22:07:07.360 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:07:07.363 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:07.365 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 4.8471ms
+2023-10-28 22:07:07.366 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:07:07.367 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:07:07.367 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.8408ms
+2023-10-28 22:07:19.734 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:07:19.739 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.0321ms
+2023-10-28 22:07:19.751 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:07:19.751 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2514ms
+2023-10-28 22:07:19.806 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:07:19.810 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:19.810 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 4.1281ms
+2023-10-28 22:07:19.835 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:07:19.835 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:07:19.835 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3892ms
+2023-10-28 22:07:21.924 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:07:21.929 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.6465ms
+2023-10-28 22:07:21.943 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:07:21.943 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2414ms
+2023-10-28 22:07:21.991 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:07:21.995 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:21.995 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 4.0665ms
+2023-10-28 22:07:21.996 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:07:21.996 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:07:21.996 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3165ms
+2023-10-28 22:07:26.643 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:07:26.644 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:26.644 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.6571ms
+2023-10-28 22:07:27.493 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:07:27.493 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:27.502 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 9.3660ms
+2023-10-28 22:07:28.083 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:07:28.083 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:28.083 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.6873ms
+2023-10-28 22:07:43.868 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:07:43.874 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.7228ms
+2023-10-28 22:07:43.890 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:07:43.891 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.4716ms
+2023-10-28 22:07:43.974 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:07:43.978 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:43.979 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 4.9989ms
+2023-10-28 22:07:43.998 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:07:43.999 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:07:43.999 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.5154ms
+2023-10-28 22:07:48.362 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:07:48.362 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:48.362 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.5635ms
+2023-10-28 22:07:49.030 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:07:49.031 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:49.040 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 9.3922ms
+2023-10-28 22:07:49.570 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:07:49.571 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:07:49.571 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.6285ms
+2023-10-28 22:08:37.351 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:08:37.357 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.6390ms
+2023-10-28 22:08:37.367 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:08:37.367 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2186ms
+2023-10-28 22:08:37.428 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:08:37.430 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:37.431 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 2.8049ms
+2023-10-28 22:08:37.449 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:08:37.449 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:08:37.449 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2371ms
+2023-10-28 22:08:41.894 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-28 22:08:41.899 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.0751ms
+2023-10-28 22:08:41.910 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-28 22:08:41.911 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2343ms
+2023-10-28 22:08:41.982 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-28 22:08:41.987 +02:00  ERR  An unhandled exception has occurred while executing the request.Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET Driver/{id}" for actions - Driver.Controllers.DriverController.GetById (Driver),Driver.Controllers.DriverController.GetById (Driver). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:41.987 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 5.2403ms
+2023-10-28 22:08:41.998 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-10-28 22:08:41.998 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-28 22:08:41.998 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3155ms
+2023-10-28 22:08:43.702 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:43.702 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:43.703 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.5670ms
+2023-10-28 22:08:44.289 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:44.289 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:44.289 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.5305ms
+2023-10-28 22:08:44.868 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:44.869 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:44.869 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.5054ms
+2023-10-28 22:08:45.445 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:45.445 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:45.445 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.4776ms
+2023-10-28 22:08:45.975 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:45.975 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:45.975 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.4612ms
+2023-10-28 22:08:46.510 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:46.510 +02:00  ERR  An unhandled exception has occurred while executing the request.Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+Driver.Controllers.DriverController.GetById (Driver)
+Driver.Controllers.DriverController.GetById (Driver)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2023-10-28 22:08:46.510 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 500 - text/plain;+charset=utf-8 0.5833ms
+2023-10-28 22:08:47.866 +02:00  INF  Application is shutting down...
+2023-10-28 22:08:53.841 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-28 22:08:53.948 +02:00  INF  Now listening on: https://localhost:7204
+2023-10-28 22:08:53.949 +02:00  INF  Now listening on: http://localhost:5055
+2023-10-28 22:08:53.950 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-10-28 22:08:53.950 +02:00  INF  Hosting environment: Development
+2023-10-28 22:08:53.950 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-10-28 22:08:58.112 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:08:58.146 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:08:58.155 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:08:58.169 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:08:58.195 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 38.0833ms
+2023-10-28 22:08:58.196 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:08:58.197 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 86.1644ms
+2023-10-28 22:09:10.761 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:09:10.762 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:10.764 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:09:10.767 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:09:10.770 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 6.3124ms
+2023-10-28 22:09:10.770 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:10.771 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 9.9421ms
+2023-10-28 22:09:18.264 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:09:18.266 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:18.266 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:09:18.267 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:09:18.267 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 1.1539ms
+2023-10-28 22:09:18.267 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:18.267 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 3.4437ms
+2023-10-28 22:09:21.370 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:09:21.371 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:21.371 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:09:21.372 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:09:21.372 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 1.2066ms
+2023-10-28 22:09:21.372 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:21.373 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 2.2470ms
+2023-10-28 22:09:47.787 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:09:47.788 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:47.789 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:09:47.790 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:09:47.791 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.5203ms
+2023-10-28 22:09:47.792 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:47.792 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 4.6805ms
+2023-10-28 22:09:48.457 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:09:48.459 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:48.459 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:09:48.460 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:09:48.460 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 1.2468ms
+2023-10-28 22:09:48.460 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:09:48.460 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 2.8305ms
+2023-10-28 22:10:19.141 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:10:19.141 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:10:19.143 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:10:19.144 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:10:19.145 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.4186ms
+2023-10-28 22:10:19.145 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:10:19.145 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 4.0567ms
+2023-10-28 22:10:19.877 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:10:19.878 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:10:19.878 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:10:19.879 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:10:19.879 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.9721ms
+2023-10-28 22:10:19.879 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:10:19.879 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 2.2566ms
+2023-10-28 22:10:20.483 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:10:20.483 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:10:20.483 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:10:20.484 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:10:20.484 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.9096ms
+2023-10-28 22:10:20.484 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:10:20.484 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 1.6014ms
+2023-10-28 22:11:03.688 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:11:03.689 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:03.690 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:11:03.691 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:11:03.693 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.771ms
+2023-10-28 22:11:03.693 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:03.693 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 4.3395ms
+2023-10-28 22:11:04.450 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:11:04.451 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:04.451 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:11:04.452 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:11:04.452 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8335ms
+2023-10-28 22:11:04.452 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:04.452 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 2.0749ms
+2023-10-28 22:11:04.978 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:11:04.978 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:04.978 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:11:04.980 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:11:04.980 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 1.5044ms
+2023-10-28 22:11:04.980 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:04.980 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 2.0902ms
+2023-10-28 22:11:05.514 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:11:05.514 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:05.514 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:11:05.515 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:11:05.515 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8952ms
+2023-10-28 22:11:05.515 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:05.515 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 200 - application/json;+charset=utf-8 1.3597ms
+2023-10-28 22:11:36.931 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:11:36.931 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:36.932 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:11:36.933 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:11:36.934 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.0087ms
+2023-10-28 22:11:36.934 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:36.934 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 400 - application/json;+charset=utf-8 3.4701ms
+2023-10-28 22:11:37.980 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2121 - -
+2023-10-28 22:11:37.981 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:37.981 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:11:37.982 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:11:37.982 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.9523ms
+2023-10-28 22:11:37.982 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:11:37.983 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2121 - - - 400 - application/json;+charset=utf-8 2.2135ms
+2023-10-28 22:15:42.065 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:15:42.066 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:15:42.066 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:15:42.066 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:15:42.068 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.206ms
+2023-10-28 22:15:42.068 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:15:42.068 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 2.7083ms
+2023-10-28 22:15:56.772 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:15:56.772 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:15:56.772 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:15:56.773 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:15:56.773 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.87ms
+2023-10-28 22:15:56.773 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:15:56.773 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.3485ms
+2023-10-28 22:15:57.402 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:15:57.402 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:15:57.402 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:15:57.403 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:15:57.403 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.9344ms
+2023-10-28 22:15:57.403 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:15:57.403 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.5318ms
+2023-10-28 22:16:11.902 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:16:11.903 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:11.903 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:11.903 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:11.904 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8042ms
+2023-10-28 22:16:11.904 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:11.904 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.3044ms
+2023-10-28 22:16:27.679 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:16:27.680 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:27.681 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:27.682 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:27.684 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.5596ms
+2023-10-28 22:16:27.684 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:27.684 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 4.2567ms
+2023-10-28 22:16:28.339 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:16:28.340 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:28.340 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:28.341 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:28.341 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.7452ms
+2023-10-28 22:16:28.341 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:28.341 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.8261ms
+2023-10-28 22:16:28.916 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:16:28.916 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:28.916 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:28.917 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:28.917 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8543ms
+2023-10-28 22:16:28.917 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:28.917 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.3271ms
+2023-10-28 22:16:52.555 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2 - -
+2023-10-28 22:16:52.555 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:52.557 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:52.558 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:52.559 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.1782ms
+2023-10-28 22:16:52.559 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:52.559 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2 - - - 200 - application/json;+charset=utf-8 4.2507ms
+2023-10-28 22:16:53.326 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2 - -
+2023-10-28 22:16:53.327 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:53.327 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:53.328 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:53.328 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.7952ms
+2023-10-28 22:16:53.328 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:53.328 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2 - - - 200 - application/json;+charset=utf-8 1.8768ms
+2023-10-28 22:16:59.153 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:16:59.153 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:59.153 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:16:59.154 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:16:59.154 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8366ms
+2023-10-28 22:16:59.154 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:16:59.154 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.3469ms
+2023-10-28 22:17:01.741 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:01.742 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:01.742 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:01.742 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:01.743 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.7742ms
+2023-10-28 22:17:01.743 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:01.743 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.1957ms
+2023-10-28 22:17:02.412 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:02.413 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:02.413 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:02.414 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:02.414 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8421ms
+2023-10-28 22:17:02.414 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:02.414 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.3163ms
+2023-10-28 22:17:29.293 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:29.294 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:29.295 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:29.296 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:29.297 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.2592ms
+2023-10-28 22:17:29.297 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:29.297 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 3.7419ms
+2023-10-28 22:17:30.162 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:30.163 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:30.163 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:30.164 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:30.164 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.7649ms
+2023-10-28 22:17:30.164 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:30.164 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.9064ms
+2023-10-28 22:17:44.861 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:44.861 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:44.862 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:44.864 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:44.866 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 3.1505ms
+2023-10-28 22:17:44.866 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:44.866 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 4.5415ms
+2023-10-28 22:17:45.825 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:45.826 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:45.827 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:45.828 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:45.828 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 1.0751ms
+2023-10-28 22:17:45.828 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:45.828 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 2.7351ms
+2023-10-28 22:17:51.307 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:51.307 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:51.308 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:51.309 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:51.311 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 3.4303ms
+2023-10-28 22:17:51.311 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:51.311 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 4.8167ms
+2023-10-28 22:17:51.954 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:17:51.955 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:51.955 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:17:51.956 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:17:51.956 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.7471ms
+2023-10-28 22:17:51.956 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:17:51.956 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 1.8872ms
+2023-10-28 22:18:09.346 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:18:09.346 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:09.347 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:09.348 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:09.349 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.3111ms
+2023-10-28 22:18:09.349 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:09.349 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 3.6993ms
+2023-10-28 22:18:10.482 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:18:10.482 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:10.483 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:10.483 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:10.483 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.8647ms
+2023-10-28 22:18:10.484 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:10.484 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 2.1139ms
+2023-10-28 22:18:26.449 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1 - -
+2023-10-28 22:18:26.449 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:26.450 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:26.451 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:26.452 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 2.35ms
+2023-10-28 22:18:26.453 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:26.453 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1 - - - 200 - application/json;+charset=utf-8 3.8361ms
+2023-10-28 22:18:29.406 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1222 - -
+2023-10-28 22:18:29.407 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:29.407 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:29.408 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:29.408 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.7229ms
+2023-10-28 22:18:29.408 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:29.408 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1222 - - - 400 - application/json;+charset=utf-8 1.8354ms
+2023-10-28 22:18:30.298 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/1222 - -
+2023-10-28 22:18:30.298 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:30.298 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:30.299 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:30.299 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.6574ms
+2023-10-28 22:18:30.299 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:30.299 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/1222 - - - 400 - application/json;+charset=utf-8 1.0100ms
+2023-10-28 22:18:32.880 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver/2 - -
+2023-10-28 22:18:32.880 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:32.881 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:32.881 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:32.881 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 0.6534ms
+2023-10-28 22:18:32.881 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-10-28 22:18:32.881 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver/2 - - - 200 - application/json;+charset=utf-8 1.0505ms
+2023-10-28 22:18:45.060 +02:00  INF  Request starting HTTP/1.1 POST https://localhost:7204/Driver application/json 105
+2023-10-28 22:18:45.061 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-10-28 22:18:45.062 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:18:45.075 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:18:45.075 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 12.3303ms
+2023-10-28 22:18:45.075 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-10-28 22:18:45.075 +02:00  INF  Request finished HTTP/1.1 POST https://localhost:7204/Driver application/json 105 - 400 - application/json;+charset=utf-8 14.4437ms
+2023-10-28 22:19:03.744 +02:00  INF  Request starting HTTP/1.1 PUT https://localhost:7204/Driver/2 application/json 105
+2023-10-28 22:19:03.744 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:03.745 +02:00  INF  Route matched with {action = "Update", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] Update(Int32, Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:19:03.747 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:19:03.748 +02:00  INF  Executed action Driver.Controllers.DriverController.Update (Driver) in 2.1289ms
+2023-10-28 22:19:03.748 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:03.748 +02:00  INF  Request finished HTTP/1.1 PUT https://localhost:7204/Driver/2 application/json 105 - 400 - application/json;+charset=utf-8 3.6567ms
+2023-10-28 22:19:18.455 +02:00  INF  Request starting HTTP/1.1 PUT https://localhost:7204/Driver/7 application/json 105
+2023-10-28 22:19:18.455 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:18.455 +02:00  INF  Route matched with {action = "Update", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] Update(Int32, Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:19:18.485 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:19:18.486 +02:00  INF  Executed action Driver.Controllers.DriverController.Update (Driver) in 30.7055ms
+2023-10-28 22:19:18.486 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:18.486 +02:00  INF  Request finished HTTP/1.1 PUT https://localhost:7204/Driver/7 application/json 105 - 200 - application/json;+charset=utf-8 31.1125ms
+2023-10-28 22:19:26.845 +02:00  INF  Request starting HTTP/1.1 PUT https://localhost:7204/Driver/7 application/json 107
+2023-10-28 22:19:26.846 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:26.846 +02:00  INF  Route matched with {action = "Update", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] Update(Int32, Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:19:26.865 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:19:26.865 +02:00  INF  Executed action Driver.Controllers.DriverController.Update (Driver) in 19.7907ms
+2023-10-28 22:19:26.866 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:26.866 +02:00  INF  Request finished HTTP/1.1 PUT https://localhost:7204/Driver/7 application/json 107 - 200 - application/json;+charset=utf-8 20.2110ms
+2023-10-28 22:19:35.997 +02:00  INF  Request starting HTTP/1.1 PUT https://localhost:7204/Driver/7 application/json 107
+2023-10-28 22:19:35.998 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:35.998 +02:00  INF  Route matched with {action = "Update", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] Update(Int32, Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:19:36.022 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:19:36.022 +02:00  INF  Executed action Driver.Controllers.DriverController.Update (Driver) in 24.5685ms
+2023-10-28 22:19:36.022 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Update (Driver)'
+2023-10-28 22:19:36.022 +02:00  INF  Request finished HTTP/1.1 PUT https://localhost:7204/Driver/7 application/json 107 - 200 - application/json;+charset=utf-8 25.1089ms
+2023-10-28 22:19:52.106 +02:00  INF  Request starting HTTP/1.1 GET https://localhost:7204/Driver - -
+2023-10-28 22:19:52.106 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Get (Driver)'
+2023-10-28 22:19:52.107 +02:00  INF  Route matched with {action = "Get", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[System.Collections.Generic.IEnumerable`1[Driver.Entities.DriverEntity]]] Get() on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:19:52.109 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[System.Collections.Generic.IEnumerable`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-28 22:19:52.111 +02:00  INF  Executed action Driver.Controllers.DriverController.Get (Driver) in 3.4652ms
+2023-10-28 22:19:52.111 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Get (Driver)'
+2023-10-28 22:19:52.111 +02:00  INF  Request finished HTTP/1.1 GET https://localhost:7204/Driver - - - 200 - application/json;+charset=utf-8 5.2748ms
+2023-10-28 22:20:02.161 +02:00  INF  Request starting HTTP/1.1 POST https://localhost:7204/Driver application/json 105
+2023-10-28 22:20:02.162 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-10-28 22:20:02.162 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:20:02.192 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:20:02.192 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 30.3379ms
+2023-10-28 22:20:02.192 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-10-28 22:20:02.192 +02:00  INF  Request finished HTTP/1.1 POST https://localhost:7204/Driver application/json 105 - 200 - application/json;+charset=utf-8 30.6740ms
+2023-10-28 22:20:16.667 +02:00  INF  Request starting HTTP/1.1 DELETE https://localhost:7204/Driver/8 - -
+2023-10-28 22:20:16.667 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Delete (Driver)'
+2023-10-28 22:20:16.669 +02:00  INF  Route matched with {action = "Delete", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:20:16.699 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:20:16.699 +02:00  INF  Executed action Driver.Controllers.DriverController.Delete (Driver) in 29.8691ms
+2023-10-28 22:20:16.699 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Delete (Driver)'
+2023-10-28 22:20:16.699 +02:00  INF  Request finished HTTP/1.1 DELETE https://localhost:7204/Driver/8 - - - 200 - application/json;+charset=utf-8 31.6218ms
+2023-10-28 22:20:28.323 +02:00  INF  Request starting HTTP/1.1 DELETE https://localhost:7204/Driver/7 - -
+2023-10-28 22:20:28.323 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Delete (Driver)'
+2023-10-28 22:20:28.323 +02:00  INF  Route matched with {action = "Delete", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-10-28 22:20:28.352 +02:00  INF  Executing OkObjectResult, writing value of type 'APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-10-28 22:20:28.353 +02:00  INF  Executed action Driver.Controllers.DriverController.Delete (Driver) in 29.2214ms
+2023-10-28 22:20:28.353 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Delete (Driver)'
+2023-10-28 22:20:28.353 +02:00  INF  Request finished HTTP/1.1 DELETE https://localhost:7204/Driver/7 - - - 200 - application/json;+charset=utf-8 29.8595ms

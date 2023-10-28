@@ -59,7 +59,7 @@ public class DriverService : IDriverService
 
         connection.Open();
 
-        using var command = new SQLiteCommand("SELECT Id, Name, IsComplete FROM Drivers WHERE Id = @Id", connection);
+        using var command = new SQLiteCommand("SELECT * FROM Drivers WHERE Id = @Id", connection);
 
         command.Parameters.AddWithValue("@Id", id);
 
@@ -67,12 +67,13 @@ public class DriverService : IDriverService
 
         var driver = new DriverEntity();
 
+        if (!reader.HasRows)
+        {
+            throw new Exception("Driver not found");
+        }
+
         while (reader.Read())
         {
-            if (!reader.HasRows)
-            {
-                throw new Exception("Driver not found");
-            }
             driver = new DriverEntity
             {
                 Id = Convert.ToInt32(reader["Id"]),

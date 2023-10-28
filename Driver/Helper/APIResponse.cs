@@ -33,6 +33,6 @@ public class APIResponse<T>
 
     public static APIResponse<T> Deleted(string message = "Deleted successfully")
     {
-        return new APIResponse<T>(false, default(T), message);
+        return new APIResponse<T>(false, default, message);
     }
 }

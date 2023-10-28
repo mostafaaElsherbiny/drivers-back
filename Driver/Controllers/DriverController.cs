@@ -1,4 +1,3 @@
-using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Driver.Entities;
 using Driver.Services;
@@ -34,22 +33,19 @@ public class DriverController : ControllerBase
 
 
     [HttpGet("{id}", Name = "GetDriverById")]
-    public ActionResult<DriverEntity> GetById(int id)
+    public ActionResult<APIResponse<DriverEntity>> GetById(int id)
     {
         try
         {
             var driver = _driverService.Show(id);
 
-            if (driver == null)
-            {
-                return NotFound();
-            }
 
-            return Ok(driver);
+            return Ok(APIResponse<DriverEntity>.Success(driver));
+
         }
         catch (Exception ex)
         {
-            return StatusCode(500, "An error occurred: " + ex.Message);
+            return BadRequest(APIResponse<DriverEntity>.Error("Failed to get driver: " + ex.Message));
         }
     }
 
@@ -110,14 +106,12 @@ public class DriverController : ControllerBase
         }
     }
 
-
-
-    //Generate Drivers
-
+    /*
+    * This endpoint generates driver data. and using it will lead to delete all existing drivers .
+    */
     [HttpGet("generate-data", Name = "GetDriverByCar")]
     public ActionResult<DriverEntity> GenerateDrivers()
     {
-
         try
         {
             var drivers = _driverService.GenerateDrivers();
@@ -134,6 +128,5 @@ public class DriverController : ControllerBase
             return BadRequest(APIResponse<DriverEntity>.Error("Failed to generate drivers: " + ex.Message));
         }
     }
-
 
 }
