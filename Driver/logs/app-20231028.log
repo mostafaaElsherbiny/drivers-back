@@ -1738,3 +1738,4 @@ Driver.Controllers.DriverController.GetById (Driver)
 2023-10-28 22:20:28.353 +02:00  INF  Executed action Driver.Controllers.DriverController.Delete (Driver) in 29.2214ms
 2023-10-28 22:20:28.353 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Delete (Driver)'
 2023-10-28 22:20:28.353 +02:00  INF  Request finished HTTP/1.1 DELETE https://localhost:7204/Driver/7 - - - 200 - application/json;+charset=utf-8 29.8595ms
+2023-10-28 22:26:28.078 +02:00  INF  Application is shutting down...

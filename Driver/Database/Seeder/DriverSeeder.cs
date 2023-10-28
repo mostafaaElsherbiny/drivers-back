@@ -16,7 +16,7 @@ public class DriverSeeder
         _connectionFactory = connectionFactory;
     }
 
-    public void Seed()
+    public IEnumerable<DriverEntity> Seed()
     {
         using var connection = _connectionFactory.CreateConnection();
         connection.Open();
@@ -30,6 +30,8 @@ public class DriverSeeder
         }
 
         var driversList = getDummyDriversData();
+
+        var createdDrivers = new List<DriverEntity>();
 
         foreach (var driver in driversList)
         {
@@ -56,12 +58,20 @@ public class DriverSeeder
                         insertCommand.Parameters.AddWithValue("@Email", driver.Email);
                         insertCommand.Parameters.AddWithValue("@PhoneNumber", driver.PhoneNumber);
                         insertCommand.ExecuteNonQuery();
+
+                        driver.Id = (int)connection.LastInsertRowId;
+                        createdDrivers.Add(driver);
                     }
+
+
                 }
             }
         }
 
         connection.Close();
+
+        return createdDrivers;
+
     }
 
 

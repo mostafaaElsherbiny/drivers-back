@@ -12,6 +12,6 @@ public interface IDriverService
     DriverEntity Update(int id, DriverEntity driver);
 
     bool Delete(int id);
-    bool GenerateDrivers();
+    IEnumerable<DriverEntity> GenerateDrivers();
 
 }

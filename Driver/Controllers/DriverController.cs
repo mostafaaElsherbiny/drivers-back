@@ -1,6 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
+
 using Driver.Entities;
+
 using Driver.Services;
+
+using Driver.Helper;
 
 namespace Driver.Controllers;
 
@@ -116,12 +120,8 @@ public class DriverController : ControllerBase
         {
             var drivers = _driverService.GenerateDrivers();
 
-            if (!drivers)
-            {
-                return NotFound();
-            }
 
-            return Ok(drivers);
+            return Ok(APIResponse<IEnumerable<DriverEntity>>.Success(drivers, "Drivers generated successfully"));
         }
         catch (Exception ex)
         {

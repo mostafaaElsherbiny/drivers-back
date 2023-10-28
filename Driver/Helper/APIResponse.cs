@@ -1,3 +1,5 @@
+
+namespace Driver.Helper;
 public class APIResponse<T>
 {
     public bool HasError { get; set; }

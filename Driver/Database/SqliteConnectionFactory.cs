@@ -8,14 +8,14 @@ public class SqliteConnectionFactory : ISqliteConnectionFactory
 {
     private readonly IConfiguration _configuration;
 
-    public SqliteConnectionFactory(IConfiguration configuration)
+    public SqliteConnectionFactory(IConfiguration configuration = null)
     {
-        _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+        _configuration = configuration;
     }
 
     public SQLiteConnection CreateConnection()
     {
-        string connectionString = _configuration.GetConnectionString("DefaultConnection") ?? throw new ArgumentNullException(nameof(connectionString));
+        string connectionString = _configuration.GetConnectionString("DefaultConnection") ?? "Data Source=mydatabase.db;Version=3;";
 
         return new SQLiteConnection(connectionString);
     }

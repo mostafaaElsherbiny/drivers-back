@@ -2,6 +2,7 @@ using System.Data.SQLite;
 using Driver.Database;
 using Driver.Database.Seeder;
 using Driver.Entities;
+using Microsoft.OpenApi.Models;
 namespace Driver.Services;
 
 public class DriverService : IDriverService
@@ -260,13 +261,13 @@ public class DriverService : IDriverService
 
     // GenerateDrivers
 
-    public bool GenerateDrivers()
+    public IEnumerable<DriverEntity> GenerateDrivers()
     {
         var seed = new DriverSeeder(_connectionFactory);
 
-        seed.Seed();
+        var drivers = seed.Seed();
 
-        return true;
+        return drivers;
 
     }
 
