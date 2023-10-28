@@ -15,7 +15,7 @@ public class DriverEntity
     [Required, MaxLength(50), MinLength(3)]
     public string LastName { get; set; } = null!;
 
-    [Required, MaxLength(50), MinLength(3)]
+    [Required, MaxLength(50), MinLength(3), EmailAddress]
     public string Email { get; set; } = null!;
 
     [Required, MaxLength(50), MinLength(3)]
