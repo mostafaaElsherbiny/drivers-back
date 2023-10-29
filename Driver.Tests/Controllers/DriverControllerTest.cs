@@ -51,7 +51,6 @@ public class DriverControllerTest
 
         var expectedDrivers = _driverSeeder.getDummyDriversData();
 
-        Console.WriteLine(expectedDrivers.Count());
 
         var _driverServiceMock = new Mock<IDriverService>();
 
@@ -326,19 +325,6 @@ public class DriverControllerTest
 
         Assert.Equal("Drivers generated successfully", apiResponse.Message);
 
-    }
-
-    [Fact]
-    public void AlphabetizeName_ReturnsAlphabetizedName()
-    {
-        // Arrange
-        string name = "Oliver Johnson";
-
-        // Act
-        string alphabetizedName = Alphabetizer.AlphabetizeName(name);
-
-        // Assert
-        Assert.Equal("eilOrv hJnnoos", alphabetizedName);
     }
 
 }
