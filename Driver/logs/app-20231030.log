@@ -1,0 +1,31 @@
+2023-10-30 00:59:06.349 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-10-30 00:59:06.457 +02:00  INF  Now listening on: https://localhost:7204
+2023-10-30 00:59:06.457 +02:00  INF  Now listening on: http://localhost:5055
+2023-10-30 00:59:06.458 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-10-30 00:59:06.459 +02:00  INF  Hosting environment: Development
+2023-10-30 00:59:06.459 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-10-30 00:59:27.969 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger - -
+2023-10-30 00:59:28.001 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger - - - 301 0 - 33.0533ms
+2023-10-30 00:59:28.008 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-10-30 00:59:28.069 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 61.3156ms
+2023-10-30 00:59:28.093 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - -
+2023-10-30 00:59:28.093 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-10-30 00:59:28.093 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - -
+2023-10-30 00:59:28.093 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - -
+2023-10-30 00:59:28.097 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 3.9068ms
+2023-10-30 00:59:28.105 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-30 00:59:28.105 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-30 00:59:28.106 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-30 00:59:28.106 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 12.9423ms
+2023-10-30 00:59:28.106 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - - - 200 144929 text/css 13.1171ms
+2023-10-30 00:59:28.106 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 12.9343ms
+2023-10-30 00:59:28.270 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-10-30 00:59:28.344 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.2913ms
+2023-10-30 01:00:00.878 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/Driver/generate-data - -
+2023-10-30 01:00:00.882 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GenerateDrivers (Driver)'
+2023-10-30 01:00:00.887 +02:00  INF  Route matched with {action = "GenerateDrivers", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Entities.DriverEntity] GenerateDrivers() on controller Driver.Controllers.DriverController (Driver).
+2023-10-30 01:00:00.897 +02:00  INF  Executing OkObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[System.Collections.Generic.IEnumerable`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-10-30 01:00:00.904 +02:00  INF  Executed action Driver.Controllers.DriverController.GenerateDrivers (Driver) in 13.9675ms
+2023-10-30 01:00:00.904 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GenerateDrivers (Driver)'
+2023-10-30 01:00:00.905 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/Driver/generate-data - - - 200 - application/json;+charset=utf-8 26.2802ms
+2023-10-30 01:00:43.822 +02:00  INF  Application is shutting down...
