@@ -328,4 +328,17 @@ public class DriverControllerTest
 
     }
 
+    [Fact]
+    public void AlphabetizeName_ReturnsAlphabetizedName()
+    {
+        // Arrange
+        string name = "Oliver Johnson";
+
+        // Act
+        string alphabetizedName = Alphabetizer.AlphabetizeName(name);
+
+        // Assert
+        Assert.Equal("eilOrv hJnnoos", alphabetizedName);
+    }
+
 }
