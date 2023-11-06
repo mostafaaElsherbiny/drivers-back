@@ -6,16 +6,16 @@ namespace Driver.Database;
 
 public class SqliteConnectionFactory : ISqliteConnectionFactory
 {
-    private readonly IConfiguration _configuration;
+    private readonly IConfiguration? _configuration;
 
-    public SqliteConnectionFactory(IConfiguration configuration = null)
+    public SqliteConnectionFactory(IConfiguration? configuration)
     {
         _configuration = configuration;
     }
 
     public SQLiteConnection CreateConnection()
     {
-        string connectionString = _configuration.GetConnectionString("DefaultConnection") ?? "Data Source=mydatabase.db;Version=3;";
+        string connectionString = _configuration?.GetConnectionString("DefaultConnection") ?? "Data Source=mydatabase.db;Version=3;";
 
         return new SQLiteConnection(connectionString);
     }

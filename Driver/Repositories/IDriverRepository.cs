@@ -1,17 +1,16 @@
 using Driver.Entities;
 
-namespace Driver.Services;
-public interface IDriverService
+namespace Driver.Repositories;
+public interface IDriverRepository
 {
     IEnumerable<DriverEntity> Index();
 
     DriverEntity Show(int id);
-
+    DriverEntity FindBy(string column, string value);
     DriverEntity Create(DriverEntity driver);
 
-    DriverEntity Update(int id, DriverEntity driver);
+    bool Update(int id, DriverEntity driver);
 
     bool Delete(int id);
-    // IEnumerable<DriverEntity> GenerateDrivers();
 
 }

@@ -1,0 +1,376 @@
+2023-11-05 04:52:37.106 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-05 04:52:37.223 +02:00  INF  Now listening on: https://localhost:7204
+2023-11-05 04:52:37.224 +02:00  INF  Now listening on: http://localhost:5055
+2023-11-05 04:52:37.225 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-11-05 04:52:37.225 +02:00  INF  Hosting environment: Development
+2023-11-05 04:52:37.225 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-11-05 04:52:41.414 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-05 04:52:41.520 +02:00  INF  Now listening on: https://localhost:7204
+2023-11-05 04:52:41.520 +02:00  INF  Now listening on: http://localhost:5055
+2023-11-05 04:52:41.521 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-11-05 04:52:41.521 +02:00  INF  Hosting environment: Development
+2023-11-05 04:52:41.521 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-11-05 04:53:22.552 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-05 04:53:22.661 +02:00  INF  Now listening on: https://localhost:7204
+2023-11-05 04:53:22.662 +02:00  INF  Now listening on: http://localhost:5055
+2023-11-05 04:53:22.663 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-11-05 04:53:22.663 +02:00  INF  Hosting environment: Development
+2023-11-05 04:53:22.663 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-11-05 04:53:57.081 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:53:57.175 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 95.9381ms
+2023-11-05 04:53:57.192 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - -
+2023-11-05 04:53:57.192 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:53:57.192 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - -
+2023-11-05 04:53:57.192 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - -
+2023-11-05 04:53:57.196 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 3.4290ms
+2023-11-05 04:53:57.204 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-05 04:53:57.204 +02:00  INF  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-05 04:53:57.204 +02:00  INF  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-05 04:53:57.205 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 12.6473ms
+2023-11-05 04:53:57.205 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - - - 200 144929 text/css 12.6474ms
+2023-11-05 04:53:57.205 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 12.6473ms
+2023-11-05 04:53:57.334 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:53:57.343 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:53:57.344 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:53:57.344 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.6863ms
+2023-11-05 04:53:57.411 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.3708ms
+2023-11-05 04:54:04.820 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/Driver - -
+2023-11-05 04:54:04.823 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Get (Driver)'
+2023-11-05 04:54:04.829 +02:00  INF  Route matched with {action = "Get", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[System.Collections.Generic.IEnumerable`1[Driver.Entities.DriverEntity]]] Get() on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:54:04.837 +02:00  INF  Executing OkObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[System.Collections.Generic.IEnumerable`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2023-11-05 04:54:04.844 +02:00  INF  Executed action Driver.Controllers.DriverController.Get (Driver) in 12.2579ms
+2023-11-05 04:54:04.845 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Get (Driver)'
+2023-11-05 04:54:04.845 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/Driver - - - 200 - application/json;+charset=utf-8 24.8705ms
+2023-11-05 04:54:18.033 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:54:18.034 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:54:18.039 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:54:18.060 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:54:18.061 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 22.0819ms
+2023-11-05 04:54:18.061 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:54:18.061 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 27.9950ms
+2023-11-05 04:54:48.844 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:54:48.850 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 6.6743ms
+2023-11-05 04:54:48.864 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - -
+2023-11-05 04:54:48.869 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:54:48.871 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 1.4124ms
+2023-11-05 04:54:48.874 +02:00  INF  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-05 04:54:48.874 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/swagger-ui.css - - - 200 144929 text/css 9.6039ms
+2023-11-05 04:54:48.932 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:54:48.936 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:54:48.936 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:54:48.936 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4111ms
+2023-11-05 04:54:48.938 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.8246ms
+2023-11-05 04:55:05.234 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:55:05.239 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.9752ms
+2023-11-05 04:55:05.254 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:55:05.254 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.4602ms
+2023-11-05 04:55:05.296 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:55:05.303 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.2578ms
+2023-11-05 04:55:05.305 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:55:05.305 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:55:05.305 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.5732ms
+2023-11-05 04:55:13.253 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:55:13.253 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:13.255 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:55:13.261 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:55:13.262 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 6.8827ms
+2023-11-05 04:55:13.262 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:13.262 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 9.1138ms
+2023-11-05 04:55:33.247 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:55:33.247 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:33.248 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:55:33.250 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:55:33.250 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 2.3377ms
+2023-11-05 04:55:33.250 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:33.250 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 3.1551ms
+2023-11-05 04:55:34.718 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:55:34.719 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:34.719 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:55:34.721 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:55:34.721 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 2.0405ms
+2023-11-05 04:55:34.721 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:34.721 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 2.6443ms
+2023-11-05 04:55:42.251 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:55:42.258 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 7.3559ms
+2023-11-05 04:55:42.276 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:55:42.276 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3968ms
+2023-11-05 04:55:42.320 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:55:42.322 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:55:42.323 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:55:42.323 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3203ms
+2023-11-05 04:55:42.325 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.5274ms
+2023-11-05 04:55:46.969 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:55:46.975 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 6.6036ms
+2023-11-05 04:55:46.984 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:55:46.984 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3955ms
+2023-11-05 04:55:47.029 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:55:47.033 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.2968ms
+2023-11-05 04:55:47.041 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:55:47.041 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:55:47.041 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4943ms
+2023-11-05 04:55:57.559 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:55:57.560 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:57.561 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:55:57.565 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:55:57.566 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 5.3056ms
+2023-11-05 04:55:57.566 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:55:57.566 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 6.8842ms
+2023-11-05 04:56:23.610 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:56:23.615 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.1764ms
+2023-11-05 04:56:23.624 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:56:23.624 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2903ms
+2023-11-05 04:56:23.686 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:56:23.688 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:56:23.689 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:56:23.689 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4116ms
+2023-11-05 04:56:23.690 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.6468ms
+2023-11-05 04:56:26.502 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:56:26.511 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 9.1412ms
+2023-11-05 04:56:26.524 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:56:26.524 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.4234ms
+2023-11-05 04:56:26.573 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:56:26.577 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:56:26.577 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.0042ms
+2023-11-05 04:56:26.577 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:56:26.577 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4289ms
+2023-11-05 04:56:29.204 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:56:29.210 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 6.1951ms
+2023-11-05 04:56:29.220 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:56:29.221 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2409ms
+2023-11-05 04:56:29.257 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:56:29.260 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:56:29.261 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:56:29.261 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4117ms
+2023-11-05 04:56:29.261 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.3035ms
+2023-11-05 04:56:30.819 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:56:30.824 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.6780ms
+2023-11-05 04:56:30.869 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:56:30.869 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2319ms
+2023-11-05 04:56:30.905 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:56:30.906 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:56:30.907 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:56:30.907 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2228ms
+2023-11-05 04:56:30.909 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.8435ms
+2023-11-05 04:56:36.400 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:56:36.401 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:56:36.411 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:56:36.415 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:56:36.416 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 5.1335ms
+2023-11-05 04:56:36.416 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:56:36.416 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 15.8764ms
+2023-11-05 04:57:23.921 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:57:23.927 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 6.1724ms
+2023-11-05 04:57:23.938 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:57:23.938 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.2922ms
+2023-11-05 04:57:23.984 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:57:23.986 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:57:23.987 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:57:23.987 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.2703ms
+2023-11-05 04:57:23.988 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.6130ms
+2023-11-05 04:57:51.110 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:57:51.114 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 4.4197ms
+2023-11-05 04:57:51.129 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:57:51.129 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3683ms
+2023-11-05 04:57:51.181 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:57:51.185 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.5257ms
+2023-11-05 04:57:51.189 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:57:51.190 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:57:51.190 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.4887ms
+2023-11-05 04:58:55.826 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:58:55.826 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:58:55.828 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:58:55.832 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:58:55.833 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 5.1382ms
+2023-11-05 04:58:55.833 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:58:55.833 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 7.2126ms
+2023-11-05 04:59:08.692 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:59:08.699 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 6.8169ms
+2023-11-05 04:59:08.721 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:59:08.721 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3209ms
+2023-11-05 04:59:08.768 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:59:08.772 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.3233ms
+2023-11-05 04:59:08.775 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:59:08.775 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:59:08.775 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.5776ms
+2023-11-05 04:59:12.025 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 04:59:12.030 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.5266ms
+2023-11-05 04:59:12.042 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 04:59:12.042 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.5385ms
+2023-11-05 04:59:12.079 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 04:59:12.083 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.6539ms
+2023-11-05 04:59:12.088 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 04:59:12.088 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 04:59:12.089 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3300ms
+2023-11-05 04:59:18.639 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 04:59:18.639 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:59:18.640 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 04:59:18.643 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 04:59:18.644 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 4.185ms
+2023-11-05 04:59:18.644 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 04:59:18.644 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 5.6203ms
+2023-11-05 04:59:22.314 +02:00  INF  Application is shutting down...
+2023-11-05 04:59:43.183 +02:00  WRN  The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert.
+2023-11-05 04:59:43.305 +02:00  INF  Now listening on: https://localhost:7204
+2023-11-05 04:59:43.306 +02:00  INF  Now listening on: http://localhost:5055
+2023-11-05 04:59:43.307 +02:00  INF  Application started. Press Ctrl+C to shut down.
+2023-11-05 04:59:43.307 +02:00  INF  Hosting environment: Development
+2023-11-05 04:59:43.307 +02:00  INF  Content root path: /media/mustafa/u-data/dotnet-works/drivers-back/Driver
+2023-11-05 05:00:23.697 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:00:23.721 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:00:23.728 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:00:23.765 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:00:23.776 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 43.3409ms
+2023-11-05 05:00:23.777 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:00:23.778 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 81.9029ms
+2023-11-05 05:00:45.858 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:00:45.859 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:00:45.861 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:00:45.866 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:00:45.867 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 6.6199ms
+2023-11-05 05:00:45.868 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:00:45.868 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 10.2104ms
+2023-11-05 05:00:50.378 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:00:50.381 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:00:50.381 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:00:50.383 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:00:50.383 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 2.3272ms
+2023-11-05 05:00:50.383 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:00:50.384 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 5.0880ms
+2023-11-05 05:01:40.706 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:01:40.706 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:01:40.708 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:01:40.711 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:01:40.712 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 4.5277ms
+2023-11-05 05:01:40.712 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:01:40.712 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 6.5808ms
+2023-11-05 05:02:30.460 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:02:30.461 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:02:30.462 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:02:30.466 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:02:30.467 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 5.0233ms
+2023-11-05 05:02:30.467 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:02:30.467 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 7.0748ms
+2023-11-05 05:02:35.218 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:02:35.219 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:02:35.219 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:02:35.222 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:02:35.223 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 3.0834ms
+2023-11-05 05:02:35.223 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:02:35.223 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 4.8887ms
+2023-11-05 05:03:02.749 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:03:02.749 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:03:02.751 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:03:02.754 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:03:02.755 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 3.9268ms
+2023-11-05 05:03:02.755 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:03:02.755 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 5.6324ms
+2023-11-05 05:03:04.161 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:03:04.162 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:03:04.162 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:03:04.164 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:03:04.165 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 2.7121ms
+2023-11-05 05:03:04.165 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:03:04.165 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 4.2705ms
+2023-11-05 05:04:01.180 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:04:01.181 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:04:01.182 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:04:01.186 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:04:01.187 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 5.2705ms
+2023-11-05 05:04:01.187 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:04:01.187 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 6.9859ms
+2023-11-05 05:04:43.121 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:04:43.122 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:04:43.123 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:04:43.127 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:04:43.127 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 4.6686ms
+2023-11-05 05:04:43.127 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:04:43.128 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 6.2869ms
+2023-11-05 05:05:38.262 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:05:38.263 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:05:38.264 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:05:38.268 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:05:38.269 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 4.6658ms
+2023-11-05 05:05:38.269 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:05:38.269 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 7.1086ms
+2023-11-05 05:06:45.084 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 120
+2023-11-05 05:06:45.084 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:06:45.086 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:06:45.092 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:06:45.093 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 6.8429ms
+2023-11-05 05:06:45.093 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:06:45.093 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 120 - 400 - application/json;+charset=utf-8 9.4573ms
+2023-11-05 05:07:54.910 +02:00  INF  Request starting HTTP/2 POST https://localhost:7204/Driver application/json 122
+2023-11-05 05:07:54.910 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:07:54.912 +02:00  INF  Route matched with {action = "Create", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] Create(Driver.Entities.DriverEntity) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:07:54.945 +02:00  INF  Executing OkObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:07:54.948 +02:00  INF  Executed action Driver.Controllers.DriverController.Create (Driver) in 35.6076ms
+2023-11-05 05:07:54.948 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.Create (Driver)'
+2023-11-05 05:07:54.948 +02:00  INF  Request finished HTTP/2 POST https://localhost:7204/Driver application/json 122 - 200 - application/json;+charset=utf-8 38.5462ms
+2023-11-05 05:09:57.962 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 05:09:58.011 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 48.2251ms
+2023-11-05 05:09:58.021 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 05:09:58.024 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 2.6872ms
+2023-11-05 05:09:58.120 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 05:09:58.129 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 05:09:58.133 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 05:09:58.133 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 3.7135ms
+2023-11-05 05:09:58.194 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 74.0425ms
+2023-11-05 05:10:21.004 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 05:10:21.010 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 6.5094ms
+2023-11-05 05:10:21.025 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 05:10:21.025 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.6521ms
+2023-11-05 05:10:21.078 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 05:10:21.085 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.8529ms
+2023-11-05 05:10:21.086 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 05:10:21.087 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 05:10:21.087 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.7548ms
+2023-11-05 05:10:25.234 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 05:10:25.242 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 7.8279ms
+2023-11-05 05:10:25.255 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 05:10:25.256 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3216ms
+2023-11-05 05:10:25.299 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 05:10:25.303 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 05:10:25.303 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 05:10:25.303 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.7331ms
+2023-11-05 05:10:25.305 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.7942ms
+2023-11-05 05:10:32.663 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 05:10:32.668 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.3591ms
+2023-11-05 05:10:32.685 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 05:10:32.685 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.4383ms
+2023-11-05 05:10:32.734 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 05:10:32.738 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 05:10:32.738 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.4187ms
+2023-11-05 05:10:32.738 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 05:10:32.738 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.6162ms
+2023-11-05 05:11:13.698 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 05:11:13.704 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 5.5252ms
+2023-11-05 05:11:13.717 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 05:11:13.717 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.5661ms
+2023-11-05 05:11:13.768 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 05:11:13.771 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 05:11:13.771 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 05:11:13.771 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.3296ms
+2023-11-05 05:11:13.772 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.8427ms
+2023-11-05 05:11:15.050 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/index.html - -
+2023-11-05 05:11:15.057 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/index.html - - - 200 - text/html;charset=utf-8 7.0748ms
+2023-11-05 05:11:15.070 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - -
+2023-11-05 05:11:15.071 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/_framework/aspnetcore-browser-refresh.js - - - 200 12054 application/javascript;+charset=utf-8 0.3203ms
+2023-11-05 05:11:15.107 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - -
+2023-11-05 05:11:15.112 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 4.9416ms
+2023-11-05 05:11:15.117 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - -
+2023-11-05 05:11:15.117 +02:00  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-11-05 05:11:15.117 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/swagger/favicon-32x32.png - - - 200 628 image/png 0.5290ms
+2023-11-05 05:11:31.486 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/Driver/11 - -
+2023-11-05 05:11:31.486 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-11-05 05:11:31.488 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:11:31.490 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:11:31.491 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 3.6322ms
+2023-11-05 05:11:31.491 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-11-05 05:11:31.491 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/Driver/11 - - - 400 - application/json;+charset=utf-8 5.8107ms
+2023-11-05 05:11:36.309 +02:00  INF  Request starting HTTP/2 GET https://localhost:7204/Driver/11 - -
+2023-11-05 05:11:36.310 +02:00  INF  Executing endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-11-05 05:11:36.310 +02:00  INF  Route matched with {action = "GetById", controller = "Driver"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Driver.Helper.APIResponse`1[Driver.Entities.DriverEntity]] GetById(Int32) on controller Driver.Controllers.DriverController (Driver).
+2023-11-05 05:11:36.311 +02:00  INF  Executing BadRequestObjectResult, writing value of type 'Driver.Helper.APIResponse`1[[Driver.Entities.DriverEntity, Driver, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-11-05 05:11:36.311 +02:00  INF  Executed action Driver.Controllers.DriverController.GetById (Driver) in 1.3143ms
+2023-11-05 05:11:36.311 +02:00  INF  Executed endpoint 'Driver.Controllers.DriverController.GetById (Driver)'
+2023-11-05 05:11:36.311 +02:00  INF  Request finished HTTP/2 GET https://localhost:7204/Driver/11 - - - 400 - application/json;+charset=utf-8 2.0158ms

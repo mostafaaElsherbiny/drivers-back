@@ -6,21 +6,21 @@ public class APIResponse<T>
     public string Message { get; set; }
     public T Data { get; set; }
 
-    public APIResponse(bool hasError, T data, string message = null)
+    public APIResponse(bool hasError, T data, string message = "")
     {
         HasError = hasError;
         Data = data;
         Message = message;
     }
 
-    public static APIResponse<T> Success(T data, string message = null)
+    public static APIResponse<T> Success(T data, string message = "")
     {
         return new APIResponse<T>(false, data, message);
     }
 
     public static APIResponse<T> Error(string message)
     {
-        return new APIResponse<T>(true, default(T), message);
+        return new APIResponse<T>(true, default, message);
     }
 
     public static APIResponse<T> Created(T data, string message = "Created successfully")

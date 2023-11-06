@@ -3,6 +3,7 @@ using Driver;
 using Serilog;
 using Driver.Services;
 using Driver.Database;
+using Driver.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,7 +41,7 @@ builder.Services.AddTransient<IDriverService, DriverService>();
 
 builder.Services.AddTransient<ISqliteConnectionFactory, SqliteConnectionFactory>();
 
-
+builder.Services.AddTransient<IDriverRepository, DriverRepository>();
 
 
 var app = builder.Build();

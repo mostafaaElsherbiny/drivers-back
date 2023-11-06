@@ -43,7 +43,6 @@ public class DriverController : ControllerBase
         {
             var driver = _driverService.Show(id);
 
-
             return Ok(APIResponse<DriverEntity>.Success(driver));
 
         }
@@ -113,20 +112,19 @@ public class DriverController : ControllerBase
     /*
     * This endpoint generates driver data. and using it will lead to delete all existing drivers .
     */
-    [HttpGet("generate-data", Name = "GetDriverByCar")]
-    public ActionResult<DriverEntity> GenerateDrivers()
-    {
-        try
-        {
-            var drivers = _driverService.GenerateDrivers();
+    // [HttpGet("generate-data", Name = "GetDriverByCar")]
+    // public ActionResult<DriverEntity> GenerateDrivers()
+    // {
+    //     try
+    //     {
+    //         var drivers = _driverService.GenerateDrivers();
 
-
-            return Ok(APIResponse<IEnumerable<DriverEntity>>.Success(drivers, "Drivers generated successfully"));
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(APIResponse<DriverEntity>.Error("Failed to generate drivers: " + ex.Message));
-        }
-    }
+    //         return Ok(APIResponse<IEnumerable<DriverEntity>>.Success(drivers, "Drivers generated successfully"));
+    //     }
+    //     catch (Exception ex)
+    //     {
+    //         return BadRequest(APIResponse<DriverEntity>.Error("Failed to generate drivers: " + ex.Message));
+    //     }
+    // }
 
 }
