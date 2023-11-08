@@ -1,4 +1,12 @@
 # drivers-back
+Consideration I put in my task 
+    ● Proper coding best practices
+    ● Input validation
+    ● Exception handling
+    ● Test Driven Development
+    ● Testing your code
+    ● Logging
+    ● Dependency injection
 
 # install 
  - git clone 
