@@ -1,5 +1,4 @@
 using System.Data.SQLite;
-using Driver;
 using Serilog;
 using Driver.Services;
 using Driver.Database;
@@ -14,7 +13,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-//SQLite
 
 var logger = new LoggerConfiguration()
     .ReadFrom.Configuration(builder.Configuration)
@@ -34,7 +32,6 @@ var databaseInitializer = new DatabaseInitializer();
 
 databaseInitializer.InitializeDatabase();
 
-// set log to file 
 
 
 builder.Services.AddTransient<IDriverService, DriverService>();

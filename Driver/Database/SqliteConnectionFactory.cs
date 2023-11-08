@@ -6,9 +6,9 @@ namespace Driver.Database;
 
 public class SqliteConnectionFactory : ISqliteConnectionFactory
 {
-    private readonly IConfiguration? _configuration;
+    private readonly IConfiguration _configuration;
 
-    public SqliteConnectionFactory(IConfiguration? configuration)
+    public SqliteConnectionFactory(IConfiguration configuration = null)
     {
         _configuration = configuration;
     }

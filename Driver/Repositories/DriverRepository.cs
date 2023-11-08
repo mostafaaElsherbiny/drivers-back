@@ -1,9 +1,6 @@
 using System.Data.SQLite;
 using Driver.Database;
-using Driver.Database.Seeder;
 using Driver.Entities;
-using Microsoft.OpenApi.Any;
-using Microsoft.OpenApi.Models;
 namespace Driver.Repositories;
 
 public class DriverRepository : IDriverRepository
@@ -13,7 +10,6 @@ public class DriverRepository : IDriverRepository
     public DriverRepository(ISqliteConnectionFactory connectionFactory)
     {
         _connectionFactory = connectionFactory;
-
     }
 
     public IEnumerable<DriverEntity> Index()

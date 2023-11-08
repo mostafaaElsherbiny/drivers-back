@@ -19,7 +19,6 @@ public class DriverService : IDriverService
     public IEnumerable<DriverEntity> Index()
     {
         return _driverRepository.Index();
-
     }
 
 
@@ -39,13 +38,13 @@ public class DriverService : IDriverService
     {
         var existingEmailDriver = _driverRepository.FindBy("Email", driver.Email);
 
-        if (existingEmailDriver.Email != null)
+        if (existingEmailDriver?.Email != null)
         {
             throw new Exception("Email already exists");
         }
         var existingPhoneDriver = _driverRepository.FindBy("PhoneNumber", driver.PhoneNumber);
 
-        if (existingPhoneDriver.PhoneNumber != null)
+        if (existingPhoneDriver?.PhoneNumber != null)
         {
             throw new Exception("Phone number already exists");
         }
@@ -60,7 +59,7 @@ public class DriverService : IDriverService
 
         var driverExist = _driverRepository.Show(id);
 
-        if (driverExist.Id == 0)
+        if (driverExist?.Id == 0)
         {
             throw new Exception("driver not exist");
         }

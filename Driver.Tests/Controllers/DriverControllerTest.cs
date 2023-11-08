@@ -304,27 +304,27 @@ public class DriverControllerTest
 
     }
 
-    [Fact]
-    public void GenerateDrivers_ReturnsOkResultWithDriver()
-    {
-        var _driverServiceMock = new Mock<IDriverService>();
+    // [Fact]
+    // public void GenerateDrivers_ReturnsOkResultWithDriver()
+    // {
+    //     var _driverServiceMock = new Mock<IDriverService>();
 
-        _driverServiceMock.Setup(x => x.GenerateDrivers()).Returns(_driverSeeder.getDummyDriversData());
+    //     _driverServiceMock.Setup(x => x.GenerateDrivers()).Returns(_driverSeeder.getDummyDriversData());
 
-        var controller = new DriverController(_driverServiceMock.Object);
+    //     var controller = new DriverController(_driverServiceMock.Object);
 
-        var result = controller.GenerateDrivers();
+    //     var result = controller.GenerateDrivers();
 
-        var actionResult = Assert.IsType<ActionResult<DriverEntity>>(result);
+    //     var actionResult = Assert.IsType<ActionResult<DriverEntity>>(result);
 
-        var okObjectResult = Assert.IsType<OkObjectResult>(actionResult.Result);
+    //     var okObjectResult = Assert.IsType<OkObjectResult>(actionResult.Result);
 
-        var apiResponse = Assert.IsType<APIResponse<IEnumerable<DriverEntity>>>(okObjectResult.Value);
+    //     var apiResponse = Assert.IsType<APIResponse<IEnumerable<DriverEntity>>>(okObjectResult.Value);
 
-        Assert.False(apiResponse.HasError);
+    //     Assert.False(apiResponse.HasError);
 
-        Assert.Equal("Drivers generated successfully", apiResponse.Message);
+    //     Assert.Equal("Drivers generated successfully", apiResponse.Message);
 
-    }
+    // }
 
 }

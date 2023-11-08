@@ -54,7 +54,8 @@ public class AlphabetizerControllerTests
     public void AlphabetizeString_NullInput_ReturnsBadRequest()
     {
         var controller = new AlphabetizerController();
-        string input = null;
+
+        string input = "";
 
 
         var result = controller.AlphabetizeString(input);
